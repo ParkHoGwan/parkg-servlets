@@ -1,4 +1,4 @@
-package org.lgs.servlets.examples;
+package org.parkg.servlets.examples;
 
 import java.io.IOException;
 import java.io.PrintWriter;
