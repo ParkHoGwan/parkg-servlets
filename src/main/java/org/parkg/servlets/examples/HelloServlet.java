@@ -1,4 +1,4 @@
-package org.lgs.servlets.examples;
+package org.parkg.servlets.examples;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -12,13 +12,13 @@ public class HelloServlet extends HttpServlet {
 	@Override
 	public void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		// µ¥ÀÌÅÍ¸¦ ¸¸µê
-		String name="¹ÚÈ£°ü";
+		// ë°ì´í„°ë¥¼ ë§Œë“¦
+		String name="ë°•í˜¸ê´€";
 		
-		// µ¥ÀÌÅÍ¸¦ request¿¡ ÅÂ¿ò
+		// ë°ì´í„°ë¥¼ requestì— íƒœì›€
 		request.setAttribute("name", name);
 		
-		// jsp·Î forward ÇÔ
+		// jspë¡œ forward í•¨
 		request.getRequestDispatcher("/WEB-INF/jsp/hello.jsp").forward(request, response);
 	}
 }
