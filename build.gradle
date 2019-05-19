@@ -20,6 +20,8 @@ dependencies {
 	// log4j 2	
 	compile 'org.apache.logging.log4j:log4j-api:2.+'
 	compile 'org.apache.logging.log4j:log4j-core:2.+'	
+	
+	compile 'org.reflections:reflections:+'
 }
 
 // clear
@@ -64,4 +66,3 @@ task dist(dependsOn:makedist, type:Sync) {
 	into "$appDir"
 }
 
-ant.importBuild 'build.xml'

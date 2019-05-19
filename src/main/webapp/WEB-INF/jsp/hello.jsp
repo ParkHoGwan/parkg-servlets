@@ -1,7 +1,7 @@
-<!doctype html>
+<!doctype  html>
 <html>
 <body>
-	<p>
-		내 이름은 ${name}</p>
-		</body>
-</html>
+ <h1>
+  안녕하세요,${name}</h1>
+  </body>
+ </html>
